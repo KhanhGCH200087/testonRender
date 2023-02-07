@@ -10,7 +10,7 @@ app.get('/',(req, res) => {
 
 app.get('/student',(req, res) => {
     res.writeHead(200, {'Content-Type' : 'text/html'});
-    res.write('<html><body><p>This is the homepage</p></body></html>');
+    res.write('<html><body><p>This is the student page</p></body></html>');
     res.end(); //cần phải có end ko thì server sẽ chạy liên tục
 })
 
